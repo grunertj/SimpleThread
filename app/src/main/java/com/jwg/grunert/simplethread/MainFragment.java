@@ -17,7 +17,6 @@ public class MainFragment extends Fragment {
     Button buttonStart, buttonStop;
     TextView textViewTime, textViewCounter,textViewAudio;
 
-
     public MainFragment() {
         // Required empty public constructor
     }
@@ -34,7 +33,6 @@ public class MainFragment extends Fragment {
         textViewTime = (TextView) view.findViewById(R.id.textViewTime);
         textViewCounter = (TextView) view.findViewById(R.id.textViewCounter);
         textViewAudio = (TextView) view.findViewById(R.id.textViewAudio);
-
 
         return view;
     }
